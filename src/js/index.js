@@ -110,7 +110,7 @@ function calculateWinner(lastRow, lastColumn) {
   if (lastRow + lastColumn + 1 === fieldSize) {
     var diagonalMatch = true;
     for (var row = 0; row < fieldSize; row++) {
-      var Value = gameFieldArray[row][fieldSize - row - 1];
+      var cellValue = gameFieldArray[row][fieldSize - row - 1];
       if (cellValue !== currentPlayer) {
         hasEmptyCells = !cellValue;
         diagonalMatch = false;
