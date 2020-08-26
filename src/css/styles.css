@@ -1,0 +1,8 @@
+.start-game .start-game__size {
+  min-width: 50px;
+}
+
+.start-game .start-game__submit {
+  display: block;
+  margin: 8px 0;
+}

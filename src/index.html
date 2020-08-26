@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/index.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <form class="start-game">
+      <label
+        for="fieldSize"
+        class="start-game__title"
+      >
+        Please select game field size
+      </label>
+      <input
+        class="start-game__size"
+        name="fieldSize"
+        id="fieldSize"
+        type="number"
+        value="3"
+        min="3"
+        max="20"
+      />
+      <button class="start-game__submit">Start</button>
+    </form>
+  </body>
+</html>
